@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Admin Dashboard</h2>
+        
+        <!-- Add Book Section -->
+        <div class="section">
+            <h3>Add Book</h3>
+            <form id="addBookForm">
+                <label for="bookTitle">Book Title:</label>
+                <input type="text" id="bookTitle" required><br>
+                
+                <label for="author ">Author Name:</label>
+                <input type="text" id="author" required><br>
+                
+                <label for="serialNo">Serial No:</label>
+                <input type="text" id="serialNo" required><br>
+                
+                <button type="button" onclick="addBook()">Add Book</button>
+            </form>
+        </div>
+
+        <!-- Book List Section -->
+        <div class="section">
+            <h3>Books List</h3>
+            <ul id="bookList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* Basic Styling for Login */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 80px;
+    border: 1px solid #ddd;
+    background-color: #e5bfd6;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+    background-color: #d2b8b8;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+input, button {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 10px;
+    background-color: #606b77;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

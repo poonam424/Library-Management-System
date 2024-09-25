@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>User Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>User Dashboard</h2>
+        
+        <!-- Issue Book Section -->
+        <div class="section">
+            <h3>Issue Book</h3>
+            <label for="issueBookId">Book ID:</label>
+            <input type="number" id="issueBookId" required><br>
+            <button type="button" onclick="issueBook()">Issue Book</button>
+        </div>
+
+        <!-- Return Book Section -->
+        <div class="section">
+            <h3>Return Book</h3>
+            <label for="returnBookId">Book ID:</label>
+            <input type="number" id="returnBookId" required><br>
+            <button type="button" onclick="returnBook()">Return Book</button>
+        </div>
+
+        <!-- Membership Section -->
+        <div class="section">
+            <h3>Manage Membership</h3>
+            <button type="button" onclick="extendMembership()">Extend Membership</button>
+            <button type="button" onclick="cancelMembership()">Cancel Membership</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
